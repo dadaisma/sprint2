@@ -1,1 +1,0 @@
-SELECT * FROM pizze2.DettalsComanda;
