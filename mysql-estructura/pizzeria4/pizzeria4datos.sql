@@ -54,9 +54,9 @@ INSERT INTO empleado (id_pizzeria, nombre, apellidos, nif, telefono, puesto) VAL
     -- Insertart categorías
 INSERT INTO categoria (nombre) VALUES
     ('Vegetariana'),
-    ('Diavola'),
-    ('Rucola'),
-    ('Margherita'),
+    ('Picante'),
+    ('Fresca'),
+    ('Classica'),
     ('Hamburguesa'),
     ('Bebida');
     
