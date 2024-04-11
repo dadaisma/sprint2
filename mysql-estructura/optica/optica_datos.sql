@@ -9,12 +9,13 @@ INSERT INTO direccion (carrer, numero, piso, puerta, codigo_postal, localitad, p
     ('Carrer Major', '20', '4', 'C', '08001', 'Barcelona', 'Barcelona', 'España'),
     ('Paseo del Prado', '50', NULL, NULL, '28014', 'Madrid', 'Madrid', 'España'),
     ('Rambla de Catalunya', '100', NULL, NULL, '08008', 'Barcelona', 'Barcelona', 'España'),
-     ('Rambla de Pakistan', '300', NULL, NULL, '09908', 'Valladolid', 'Barcelona', 'España');
-
+     ('Rambla de Pakistan', '300', NULL, NULL, '09908', 'Valladolid', 'Barcelona', 'España'),
+('Rambla de novender', '555', NULL, NULL, '08098', 'Vic', 'Barcelona', 'España');
 -- Insertar datos  de proveedores
 INSERT INTO provedor (nombre, telefono, nif, fax, id_direccion) VALUES
     ('Opticalia', '123456789', 'ES12345678', '987654321', 1),
-	('PakyOptica', '098856789', 'PK12345678', '009554321', 10);
+	('PakyOptica', '098856789', 'PK12345678', '009554321', 10),
+    ('NovendoNadaOptica', '444856789', 'PK12345678', '444554321', 11);
 -- Insertar datos  de marcas
 INSERT INTO marca (nombre, id_provedor) VALUES
     ('Ray-Ban', 1),
