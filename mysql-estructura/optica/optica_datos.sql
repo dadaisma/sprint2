@@ -23,7 +23,8 @@ INSERT INTO marca (nombre, id_provedor) VALUES
     ('Prada', 1),
     ('Tom Ford', 1),
      ('TarokPaky', 2),
-    ('Versace', 1);
+    ('Versace', 1),
+    ('Papitos',3);
     
     
     -- Insertar datos  de gafas
