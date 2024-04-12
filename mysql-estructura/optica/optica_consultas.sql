@@ -1,8 +1,10 @@
 
 -- Llista el total de factures d'un client/a en un període determinat.
-SELECT COUNT(*) AS totale_de_factures
+SELECT COUNT(*) AS "total de facturas 2023", cliente.nombre as "nombre cliente"
 FROM venta
-WHERE id_cliente = 2 AND YEAR(fecha_registro) = 2023;
+JOIN  optica.cliente ON venta.id_cliente = cliente.id_cliente
+WHERE venta.id_cliente = 2 AND YEAR(venta.fecha_registro) = 2023;
+
 
 -- Llista els diferents models d'ulleres que ha venut un empleat/da durant un any.
 SELECT 
