@@ -1,1 +1,0 @@
-db.createCollection('colors', {validator: {$jsonSchema: {bsonType: 'object',title: 'colors',required: ['color'],properties:{color:{bsonType: 'string'}}}}});
