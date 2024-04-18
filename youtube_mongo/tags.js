@@ -1,0 +1,1 @@
+db.createCollection('tags', {validator: {$jsonSchema: {bsonType: 'object',title: 'tags',properties:{tag_name:{bsonType: 'string'}}}}});

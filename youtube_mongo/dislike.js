@@ -1,0 +1,1 @@
+db.createCollection('dislike', {validator: {$jsonSchema: {bsonType: 'object',title: 'dislike',required: ['usuario'],properties:{usuario:{bsonType: 'objectId'},fecha:{bsonType: 'timestamp'}}}}});

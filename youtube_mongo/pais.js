@@ -1,0 +1,1 @@
+db.createCollection('pais', {validator: {$jsonSchema: {bsonType: 'object',title: 'pais',properties:{name_pais:{bsonType: 'string'}}}}});

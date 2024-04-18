@@ -1,0 +1,2 @@
+db.createCollection('producto', {validator: {$jsonSchema: {bsonType: 'object',title: 'producto',required: ['tipo','categoria_pizza'],properties:{tipo:{enum: ["pizza","drink","hamburger"]},name:{bsonType: 'string'},description:{bsonType: 'string'},price:{bsonType: 'double'},categoria_pizza:{
+  bsonType: 'array',items:{bsonType: 'objectId'}},image:{bsonType: 'string'}}}}});

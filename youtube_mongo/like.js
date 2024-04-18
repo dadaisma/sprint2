@@ -1,0 +1,1 @@
+db.createCollection('like', {validator: {$jsonSchema: {bsonType: 'object',title: 'like',required: ['usuario'],properties:{usuario:{bsonType: 'objectId'},fecha:{bsonType: 'timestamp'}}}}});

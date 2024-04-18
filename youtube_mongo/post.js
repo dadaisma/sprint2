@@ -1,0 +1,1 @@
+db.createCollection('post', {validator: {$jsonSchema: {bsonType: 'object',title: 'post',required: ['usuario','like','dislike'],properties:{text:{bsonType: 'string'},usuario:{bsonType: 'objectId'},like:{bsonType: 'objectId'},dislike:{bsonType: 'objectId'}}}}});
